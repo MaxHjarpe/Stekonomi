@@ -1,65 +1,86 @@
-.block{
-    background-color: rgb(250, 250, 250);
-    font-size: 50px;
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.title-box {
+    width: 500px;
+}
+.title-box img {
+    width: 235px;
+    margin-bottom: -10px;
+}
+.title-box p {
+    color: #000;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.form-box {
+    width: 550px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+    background: #fff;
+    margin-left: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+.form-box input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+.form-box input:focus {
+    box-shadow: #363636;
+}
+.form-box button {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: black;
+}
+.form-box button:hover {
+    background: #363636;
+}
+.form-box a {
+    color: #363636;
+    font-size: 14px;
     text-decoration: none;
-    color: black;
-    padding: 10px;
-    border-radius: 30px;
-    width: 750px;
-    box-shadow: 8px 12px 25px rgba(0, 0, 0, 0.1);
-}
-
-.h1-styling{
+    margin-top: 5px;
+    margin-bottom: 20px;
     display: block;
-    font-size: 70px;
-    text-align: center;
 }
-
-.inside-block{
-    display: flex;
-    justify-content: center;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px;
-    border-style: solid;
-    font-size: xx-large;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    align-items: center;
+.form-box a:hover {
+    text-decoration: underline;
 }
-
-.inside-text{
-    width: 375px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.form-box hr {
+    border: 1px solid #dadde1;
+    margin-bottom: 15px;
 }
-
-.block-for-text{
-    display: flex;
-    justify-content: center;
+.form-box .create-btn a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #000000;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;
 }
-
-.main-block{
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-.button-stylig-login{
-    display: block;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    border-style: solid;
-    color: white;
-    box-shadow: 8px 12px 25px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
+.form-box .create-btn a:hover {
+    background: #363636;
 }

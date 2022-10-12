@@ -4,26 +4,19 @@ import "../Login/Login.css";
 const Login = () => {
   return (
     <>
-      <main className="main-block">
-        <div className="block">
-          <h1 className="h1-styling">Välkommen</h1>
-          <div className="block-for-text">
-            <div className="inside-text">
-              <p className="inside-block">Email</p>
-            </div>
-            <div className="inside-text">
-              <p className="inside-block">...</p>
-            </div>
-          </div>
-          <div className="block-for-text">
-            <div className="inside-text">
-              <p className="inside-block">Lösenord</p>
-            </div>
-            <div className="inside-text">
-              <p className="inside-block">...</p>
+      <main className="body-tag">
+        <div className="box">
+          <div className="form-box">
+            <form action="#"></form>
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Lösenord" />
+            <button type="submit">Log In</button>
+            <div className="create-btn">
+              <a href="login">
+                Create New Account
+              </a>
             </div>
           </div>
-          <button className="button-stylig-login">Logga in</button>
         </div>
       </main>
     </>
