@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
+import NavBar from "./Components/Navbar/NavBar";
 import logo from "./logo.svg";
 import Homepage from "./Pages/Homepage";
 
 function App() {
   return (
     <>
+    <NavBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
