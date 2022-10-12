@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import logo from "./logo.svg";
+import Budget from "./Pages/Budget";
 import Homepage from "./Pages/Homepage";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/budget" element={<Budget/>} />
       </Routes>
     </>
   );

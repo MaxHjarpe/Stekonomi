@@ -1,0 +1,26 @@
+.budget__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.utgifter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget__form__left {
+    margin-right: 15%;
+}
+
+.budget__form__right {
+    margin-left: 20%;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.history {
+    margin: 5px;
+}
