@@ -21,7 +21,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/projekt"
+                to="/Budget"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -29,7 +29,7 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/about" className="nav-links" onClick={handleClick}>
+              <NavLink to="/Login" className="nav-links" onClick={handleClick}>
                 Login
               </NavLink>
             </li>
