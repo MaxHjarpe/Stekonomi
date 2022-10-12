@@ -1,4 +1,4 @@
-import { Form, Input, InputNumber } from "antd";
+import { Button } from "antd";
 import React from "react";
 import "../CSS/budgetForm.css";
 
@@ -6,67 +6,43 @@ const BudgetForm = () => {
     return (
         <div className="budget">
             <h1 className="utgifter">Utgifter</h1>
-            <div className="budget__form">
-                <div className="budget__form__left">
-                    <Form.Item
-                    name="income" 
-                    rules={[{required: true, message: "Inkomst måste nämnas", min: 1}]}
-                    label="Inkomst">
-                        <InputNumber
-                        name="income"
-                        placeholder="Nämn din inkomst"
-                        //value={cardName}
-                        />
-                    </Form.Item>
+            <form>
+                <div className="budget__form">
+                    <div className="budget__form__left">
+                        <p className="income">Inkomst</p>
+                        <input type="number" required />
+                    </div>
+                    <div className="budget__form__center">
+                        <div className="formItem">
+                            <label className="formItemTitle">Hyra</label>
+                            <input id="hyra" className="formItemInput" type="number" />
+                        </div>
+                        <div className="formItem">
+                            <label className="formItemTitle">Mat</label>
+                            <input id="food" className="formItemInput" type="number" />
+                        </div>
+                        <div className="formItem">
+                            <label className="formItemTitle">Transport</label>
+                            <input id="transport" className="formItemInput" type="number" />
+                        </div>
+                        <div className="formItem">
+                            <label className="formItemTitle">Gym</label>
+                            <input id="gym" className="formItemInput" type="number" />
+                        </div>
+                    </div>
+                    <div className="budget__form__right">
+                        <button 
+                        className="budget__button"
+                        //onClick={}
+                        >
+                            Historik
+                        </button>
+                    </div>
                 </div>
-                <div className="budget__form__center">
-                    <Form layout="vertical">
-                        <Form.Item 
-                        name="rent"
-                        label="Hyra">
-                            <InputNumber
-                            name="rent"
-                            placeholder="Nämn din hyra"
-                            //value={cardName}
-                            />
-                        </Form.Item>
-                        <Form.Item 
-                        name="food"
-                        label="Mat">
-                            <InputNumber
-                            name="food"
-                            placeholder="Nämn dina mat utgifter"
-                            //value={cardName}
-                            />
-                        </Form.Item>
-                        <Form.Item 
-                        name="transport"
-                        label="Transport">
-                            <InputNumber
-                            name="transport"
-                            placeholder="Nämn dina transport utgifter"
-                            //value={cardName}
-                            />
-                        </Form.Item>
-                        <Form.Item 
-                        name="gym"
-                        label="Gym">
-                            <InputNumber
-                            name="gym"
-                            placeholder="Nämn dina gym utgifter"
-                            //value={cardName}
-                            />
-                        </Form.Item>
-                    </Form>
+                <div className="budget__success">
+                    <button className="budget__button">Beräkna</button>
                 </div>
-                <div className="budget__form__right">
-                    <Form.Item
-                        className="history"
-                        name="history"
-                        label="Historik">
-                    </Form.Item>
-                </div>
-            </div>
+            </form>
         </div>
     )
 }

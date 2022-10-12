@@ -1,26 +1,56 @@
-.budget__form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .utgifter {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.budget__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .budget__form__left {
-    margin-right: 15%;
+    margin-right: 10%;
+}
+
+.income {
+    margin-left: 30%;
 }
 
 .budget__form__right {
-    margin-left: 20%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.formItem {
+    display: flex;
+    margin-top: 5%;
+}
+
+.formItemTitle {
+    border: solid 1px;
+    margin-right: 10px;
+    padding: 5px 45px;
+    flex: 1;
+}
+
+.formItemInput {
+    flex: 1;
+}
+
+.budget__button {
+    background-color: #35A7FF;
     border: solid 1px;
     border-color: black;
     border-radius: 25px;
+    font-size: medium;
+    padding: 10px 25px;
 }
 
-.history {
-    margin: 5px;
+.budget__success {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
