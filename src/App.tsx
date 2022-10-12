@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import Footer from "./Components/Footer";
 import logo from "./logo.svg";
 import Homepage from "./Pages/Homepage";
 
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
