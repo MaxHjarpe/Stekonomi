@@ -1,9 +1,11 @@
 import React from "react";
+import Budgetspage from "./Pages/Budgetspage";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./Components/Navbar/NavBar";
 import Homepage from "./Pages/Homepage";
 import Login from "./Pages/Login/Login";
 import Footer from "./Components/Footer";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
     <NavBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/budgets" element={<Budgetspage />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
       <Footer/>
