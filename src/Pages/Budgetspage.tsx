@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/budgets.css";
 import "../Components/Budgets.tsx";
-import "../Components/Footer.tsx";
+
 
 const Budgetspage = () => {
   return (
@@ -12,6 +12,7 @@ const Budgetspage = () => {
       <button className="button2">Namn2, 2022-08-22</button>
       <button className="button3">Namn3, 2022-09-22</button>
     </div>
+    
   );
 };
 
