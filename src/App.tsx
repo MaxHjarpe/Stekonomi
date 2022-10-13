@@ -1,13 +1,16 @@
 import React from "react";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import logo from "./logo.svg";
+import Budgetspage from "./Pages/Budgetspage";
 import Homepage from "./Pages/Homepage";
+
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/budgets" element={<Budgetspage />} />
       </Routes>
     </>
   );
