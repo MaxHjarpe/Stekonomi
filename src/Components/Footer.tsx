@@ -1,11 +1,13 @@
 import React from "react";
 import "../CSS/footer.css";
-import waveSvg from "../assets/wave.svg";
+// import waveSvg from "../assets/wave.svg";
 
 const Footer = () => {
   return (
     <>
       <footer className="footer">
+      {/* <img className="waves" src={waveSvg} alt="wavy lines" /> */}
+
         <div className="footer__container">
           <div className="footer__header">
             <h3>Webbdesign</h3>
@@ -21,7 +23,6 @@ const Footer = () => {
 
           </div>
         </div>
-        <img className="waves" src={waveSvg} alt="wavy lines" />
       </footer>
     </>
   );
