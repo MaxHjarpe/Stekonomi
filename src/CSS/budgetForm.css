@@ -79,13 +79,15 @@
 }
 
 .budget__button {
-    background-color: #35A7FF;
+    background-image: url("C:\Users\derpg\React\Stekonomi\Stekonomi\src\assets\buttonBackground.svg");
+    font-weight: bold;
     border: solid 1px;
     border-color: black;
     border-radius: 25px;
     font-size: medium;
     padding: 10px 25px;
     max-width: 150px;
+    cursor: pointer;
 }
 
 .history__button {

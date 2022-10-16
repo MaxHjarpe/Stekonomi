@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
+    <>
     <main>
       <img className="backgroundImg" src={background} alt="" />
       <div className="homepage">
@@ -27,6 +28,7 @@ const Homepage = () => {
         </div>
       </div>
     </main>
+    </>
   );
 };
 
