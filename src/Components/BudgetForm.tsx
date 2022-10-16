@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../CSS/budgetForm.css";
 
 const BudgetForm = () => {
@@ -39,12 +40,14 @@ const BudgetForm = () => {
                 </form>
 
                 <div className="budget__form__right">
+                    <NavLink to="/budgets">
                     <button
                         className="budget__button history__button"
                     //onClick={}
                     >
                         Historik
                     </button>
+                    </NavLink>
                 </div>
 
             </div>

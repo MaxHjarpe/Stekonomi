@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "../CSS/footer.css";
 // import waveSvg from "../assets/wave.svg";
 
@@ -6,21 +7,19 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-      {/* <img className="waves" src={waveSvg} alt="wavy lines" /> */}
+        {/* <img className="waves" src={waveSvg} alt="wavy lines" /> */}
 
         <div className="footer__container">
           <div className="footer__header">
-            <h3>Webbdesign</h3>
-            <div className="footer__header__item">
-              <p>UI/UX</p>
-            </div>
+            <NavLink className="footerlink" to="/budget"><p><b>Skapa budget</b></p></NavLink>
+            <NavLink className="footerlink" to="/budgets"><p><b>Min ekonomi</b></p></NavLink>
+            <NavLink className="footerlink" to="/login"><p><b>Login</b></p></NavLink>
           </div>
           <div className="footer__header">
-            <h3>Copyright</h3>
+            <h2>Copyright</h2>
             <div className="footer__header__item">
               <p>©MAGA</p>
             </div>
-
           </div>
         </div>
       </footer>

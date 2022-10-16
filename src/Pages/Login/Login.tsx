@@ -1,10 +1,14 @@
 import React from "react";
 import "../Login/Login.css";
+import background from "../../assets/backgroundWave.svg";
+
 
 const Login = () => {
   return (
     <>
       <main className="body-tag">
+      <img className="backgroundImg" src={background} alt="" />
+        
         <div className="box">
           <div className="form-box">
           <h1>Välkommen</h1>
