@@ -44,3 +44,7 @@ h2 {
   margin-bottom: 20px;
   justify-content: space-between;
 }
+
+.names {
+  font-weight: 500;
+}

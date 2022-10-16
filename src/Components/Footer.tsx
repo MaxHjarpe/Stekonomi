@@ -19,6 +19,7 @@ const Footer = () => {
             <h2>Copyright</h2>
             <div className="footer__header__item">
               <p>©MAGA</p>
+                <p className="names"><b>M</b>ax, <b>A</b>nton, <b>G</b>ustaf, <b>A</b>dam</p>
             </div>
           </div>
         </div>
