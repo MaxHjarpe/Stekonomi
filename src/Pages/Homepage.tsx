@@ -6,6 +6,7 @@ import background from "../assets/background.svg";
 const Homepage = () => {
   return (
     <>
+    <main>
       <img className="backgroundImg" src={background} alt="" />
       <div className="homepage">
         <div className="image__container">
@@ -17,6 +18,7 @@ const Homepage = () => {
           <button className="homepage__button">Skapa</button>
         </div>
       </div>
+      </main>
     </>
   );
 };
