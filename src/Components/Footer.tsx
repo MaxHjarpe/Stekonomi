@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="footer__header">
             <NavLink className="footerlink" to="/budget"><p><b>Skapa budget</b></p></NavLink>
             <NavLink className="footerlink" to="/budgets"><p><b>Min ekonomi</b></p></NavLink>
-            <NavLink className="footerlink" to="/login"><p><b>Login</b></p></NavLink>
+            <NavLink className="footerlink" to="/login"><p><b>Logga in</b></p></NavLink>
           </div>
           <div className="footer__header">
             <h2>Copyright</h2>
