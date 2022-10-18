@@ -37,8 +37,8 @@
 }
 
 .homepage__button {
-  background-image: url("C:\Users\derpg\React\Stekonomi\Stekonomi\src\assets\buttonBackground.svg");
-  background-size: cover;
+  background-image: url("../assets/buttonBackground.svg");
+    background-size: cover;
   font-size: 1.5rem;
   width: 200px;
   height: 50px;
