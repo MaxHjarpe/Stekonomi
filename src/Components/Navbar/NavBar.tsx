@@ -11,12 +11,12 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink to="/" className="nav-logo">
-            MAGA
+            STEKONOMI
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink to="/" className="nav-links" onClick={handleClick}>
-                Home
+                Hem
               </NavLink>
             </li>
             <li className="nav-item">
@@ -30,7 +30,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink to="/Login" className="nav-links" onClick={handleClick}>
-                Login
+                Logga in
               </NavLink>
             </li>
           </ul>
