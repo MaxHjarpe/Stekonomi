@@ -79,7 +79,7 @@
 }
 
 .budget__button {
-    background-image: url("C:\Users\derpg\React\Stekonomi\Stekonomi\src\assets\buttonBackground.svg");
+    background-image: url("../assets/buttonBackground.svg");
     font-weight: bold;
     border: solid 1px;
     border-color: black;
